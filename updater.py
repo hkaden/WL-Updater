@@ -2,13 +2,14 @@
 import hashlib    
 import urllib,urllib2
 import json
-import os.path
+import os
 import requests
 from colors import red, green, blue
 from clint.textui import progress
 import webbrowser
+import zipfile
 
-ver = "1.1"
+ver = "1.2"
 
 m = hashlib.md5()
 
@@ -54,6 +55,17 @@ if update["version"] != ver:
     print red('喂喂巴打有更新喎不如更新左先啦～\n').decode("utf-8")
     webbrowser.open('https://github.com/l2003201/WL-Updater/raw/master/updater.exe')
     exit()
+
+if os.path.exists('wlviptw.exe') is False:
+    print ('喂巴打你好似未down飄流傭兵喎，不如我幫Donwload之後解壓係你依家個目錄到順手更新到最新啦好無？(' + os.getcwd() + ')').decode("utf-8")
+    in1 = raw_input("Enter (y)es or (n)o: ") 
+    if in1 == "yes" or in1 == "y" or in1 == "": 
+        download( 'wl.zip', update["WL_download_url"])
+        zip_ref = zipfile.ZipFile('wl.zip', 'r')
+        zip_ref.extractall(os.getcwd())
+        zip_ref.close()
+        os.remove('wl.zip')
+
 
 checker( "V_hk.Dat", update["V_hk.Dat"]["latest_md5"], update["V_hk.Dat"]["download_url"])
 checker( "game.dat", update["game.dat"]["latest_md5"], update["game.dat"]["download_url"])

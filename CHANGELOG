@@ -1,5 +1,9 @@
 # Change Log
 
+## [1.2] - 17-01-2017
+### Added
+- Download傭兵主程式功能，只要開Updater當系統發現你當前目錄無傭兵既話就會問你洗唔洗Download
+
 ## [1.1] - 14-01-2017
 ### Added
 - 當檢測到無個File果陣比用家選擇洗唔洗係Server Download個最新既
