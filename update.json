@@ -1,20 +1,20 @@
 {
   "version": "1.2",
-  "WL_download_url": "https://raw.githubusercontent.com/l2003201/WL-Updater/master/wl.zip",
+  "WL_download_url": "https://raw.githubusercontent.com/l2003201/WL-Updater/master/file/wl.zip",
   "V_hk.Dat": {
-    "latest_md5": "99a98eb908bebe556f503b3034f55d1d",
-    "download_url": "https://raw.githubusercontent.com/l2003201/WL-Updater/master/V_hk.Dat"
+    "latest_md5": "e74227e9cb3da1d7d4a48fd2ec4bd855",
+    "download_url": "https://raw.githubusercontent.com/l2003201/WL-Updater/master/file/V_hk.Dat"
   },
   "game.dat": {
     "latest_md5": "b04028aee9eb189b2c759442e61ea769",
-    "download_url": "https://github.com/l2003201/WL-Updater/raw/master/game.dat"
+    "download_url": "https://github.com/l2003201/WL-Updater/raw/master/file/game.dat"
   },
   "game_hk.dat": {
     "latest_md5": "6e4275e459e819ff7762013a94cc9f51",
-    "download_url": "https://github.com/l2003201/WL-Updater/raw/master/game_hk.dat"
+    "download_url": "https://github.com/l2003201/WL-Updater/raw/master/file/game_hk.dat"
   },
    "Server.ini": {
-    "latest_md5": "d4cc221505b3e568e455a1f9b4031ba1",
-    "download_url": "https://raw.githubusercontent.com/l2003201/WL-Updater/master/Server.ini"
+    "latest_md5": "9e1d829c6653785c7e3b7e87e43d49c8",
+    "download_url": "https://raw.githubusercontent.com/l2003201/WL-Updater/master/file/Server.ini"
   }
 }
